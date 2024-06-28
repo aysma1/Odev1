@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Odev1</title>
+        <link rel="stylesheet" href="css/ayse.css">    
+    </head>
+
+    <body style="background: #ededed;">
+        <form class="formstil" action="index.html"> 
+
+            <strong class="form-title">Formu Doldurunuz</strong>
+
+            <label class="form-item">
+                <span>İsim:</span>
+                <input class="form-value" name="isim" type="text" placeholder="Örnek : Ayşe">
+            </label>
+
+            <label class="form-item">
+                <span>Yaş:</span>
+                <select class="form-value" name="yas">
+                    <option value="">Seçin</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                </select>
+            </label>
+
+            <div class="form-item">
+                <span>Cinsiyet:</span>
+                <div class="cinsiyet">
+                    <label>
+                        <input name="cinsiyet" value="Erkek" type="radio">
+                        <span>Erkek</span>
+                    </label>
+                    <label>
+                        <input name="cinsiyet" value="Kız" type="radio">
+                        <span>Kız</span>
+                    </label>
+                </div>
+            </div>
+
+            <label class="form-item">
+                <span>Hakkında:</span>
+                <textarea class="form-value" name="hakkinda"placeholder="Kendin hakkında bir şeyler yaz"></textarea>
+            </label>
+            <div class="form-item submitbtn">
+                <button type="submit">Formu gönder</button>
+            </div>
+        </form>
+    </body>
+
+</html>

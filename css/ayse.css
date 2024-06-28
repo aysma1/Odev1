@@ -1,0 +1,59 @@
+.formstil {
+    display: flex;
+    flex-flow: column;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    overflow: hidden;
+    width: 390px;
+    margin: 20px auto 0 auto;
+    background: white;
+}
+.formstil .form-item {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+}
+
+.formstil .form-title {
+    width: 100%;
+    float: left;
+    background: #0a90a5;
+    text-align: center;
+    padding: 5px 0px;
+    color: #fff;
+}
+
+.formstil .form-item span {
+    width: 90px;
+    float: left;
+}
+
+.formstil .form-item .form-value {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.formstil .form-item .cinsiyet {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formstil .form-item .cinsiyet label {
+    display: flex;
+}
+.formstil .submitbtn {
+    display: flex;
+}
+
+.formstil .submitbtn button {
+    border: 1px solid #ccc;
+    padding: 6px 20px;
+    border-radius: 3px;
+    background-color: #0a90a5;
+    color: #fff;
+}
+
+textarea{max-width: 250px;max-height: 100px;width: 250px;height: 100px;min-width: 250px;min-height: 100px;}
